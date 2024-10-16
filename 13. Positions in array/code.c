@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        if(arr[i] <= 10)
+        if (arr[i] <= 10)
         {
             printf("A[%d] = %d\n", i, arr[i]);
         }
