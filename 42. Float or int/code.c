@@ -5,6 +5,7 @@ int main()
     float n;
     scanf("%f", &n);
 
+    /// Check the number is integer or float
     if (n == (int)n)
     {
         printf("int %d", (int)n);
