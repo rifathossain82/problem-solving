@@ -7,13 +7,15 @@ int main()
 
     int arr[n];
 
+    // Take input:
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
 
+    // 
     for (int i = 0; i < m; i++)
-    {   
+    {
         int count = 0;
         for (int j = 0; j < n; j++)
         {
